@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #EAF6F6;
+}
+.formpage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+.formpage h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.formpage .input_field{
+    margin-bottom: 10px;
+}
+.formpage .input_field input[type="text"],
+.formpage textarea{
+    width: 100%;
+    border: 2px soild black;
+    padding: 10px;
+}
+.formpage textarea{
+    height: 80px;
+    resize: none;
+}
+.formpage .btn input[type="submit"]{
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+    background: skyblue;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.formpage #errorMessage{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: rgb(240, 107, 107);
+    text-align: center;
+    font-size: 14px;
+}
